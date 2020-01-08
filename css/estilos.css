@@ -1,0 +1,181 @@
+/*reglas ->selectores ->declaraciones ->propiedades ->valores*/
+
+.header{
+    background-image: url('../imagen/cubuertos.jpeg');
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-size: 100px 120px;
+    background-color:black 
+   
+    
+    
+    
+}
+ol,
+li{
+ font-size: 50px;
+  list-style: none;
+  display: flex;
+  
+  background-size: 10px 10px;
+  margin-left: 10px;
+  justify-content: space-between;
+  
+}
+.foods
+{
+  background-color: black;
+  display: flex;
+  align-self: unset ;
+  flex-wrap: wrap;
+  
+
+}
+div{
+  
+}
+.foodsimage
+{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  align-items: unset;
+}
+.foodstitle{
+  text-align-last: left;
+ 
+}
+figure{
+
+border-radius: 10px;
+display: flex;
+header align-self: auto;
+}
+.menu{
+  font-family: ;
+ 
+}
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+    
+}
+nav{
+font-family: 'nanum brush script', sans-serif ;
+line-height: 2;
+text-align-last: right;
+border: 1px solid blanchedalmond;
+border-radius: 10px;
+margin: 0px 0px 0px 0px;
+display: flex;
+height: inherit;
+align-items: center;
+justify-content: space-between;
+margin: 0px;
+    border: 1px solid blanchedalmond;
+}
+strong{
+   font-family: 'love ya like a sister'; 
+   font-size: 100px;
+}
+body{
+font-family: 'love ya like a sister', sans-serif ;
+background-color:black;
+color: white;
+font:  white;
+text-transform: uppercase;
+
+}
+h1{
+    
+    font-family: 'love ya like a sister', sans-serif ;/*tipo de letra*/
+    font-weight: 600;/*tamaño de letra*/
+    font-size: 80px;
+    line-height: 2em;/*salto de linea*/
+    font-style:  ;/*estilos de letra*/
+    letter-spacing: 10px;/*espacio entre letra*/
+    text-transform: uppercase;/*mayusculas*/
+    text-decoration: ;/*decorar letra*/
+    height: 300px;
+    background-image: url('../imagen/portada.jpeg');
+    background-repeat: no-repeat;
+    background-position-x:right;
+   background-size: 500px 300px;
+   margin: 20px;
+  padding: 10px;
+}
+h2{
+  text-align: center;
+  margin-bottom: 40px;
+}
+h3{
+    margin: 20px;
+  padding: 10px; 
+  display: flex;
+  text-align: center;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+  width: 200px;
+  height: 200px;
+    border: 1px solid white;
+    flex-shrink: 0;
+}
+.footer
+{
+  color: whitesmoke;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.contact{
+  background-color: black;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin: 10px;
+  border-top: 1px solid blanchedalmond;
+  
+}
+.social{
+ 
+
+}
+.social-link{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  margin-left: 10px;
+  
+}
+.social-link.facebook{
+  background-image: url('../imagen/facebook.jpeg'); 
+}
+.social-link.twitter{
+  background-image: url('../imagen/twitter.jpeg');
+}
+.social-link.instagram{
+  background-image: url('../imagen/instagram.jpeg');
+}
+.form-email{
+border-color: white;
+padding: 20px;
+background-position-x: center;
+}
+.form-email,button{
+  
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
